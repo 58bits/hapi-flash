@@ -21,12 +21,6 @@
     "boom": "2.x.x",
     "hoek": "2.x.x"
   },
-  "peerDependencies": {
-    "hapi": ">=9.x.x"
-  },
-  "devDependencies": {
-    "hapi": "9.x.x"
-  },
   "licenses": [
     {
       "type": "BSD",
