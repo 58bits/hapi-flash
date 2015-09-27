@@ -1,0 +1,36 @@
+{
+  "name": "hapi-flash",
+  "description": "Request decorated flash messages - for post,put,delete redirect to get messages in Hapi.js",
+  "version": "1.0.0",
+  "author": "Anthony Bouch <tony@58bits.com> (http://www.58bits.com)",
+  "repository":
+  {
+    "type": "git",
+    "url": "git://github.com/58bits/hapi-flash"
+  },
+  "main": "lib/index",
+  "keywords": [
+    "hapi",
+    "plugin",
+    "flash"
+  ],
+  "engines": {
+    "node": ">=0.10.32"
+  },
+  "dependencies": {
+    "boom": "2.x.x",
+    "hoek": "2.x.x"
+  },
+  "peerDependencies": {
+    "hapi": ">=9.x.x"
+  },
+  "devDependencies": {
+    "hapi": "9.x.x"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "http://github.com/58bits/hapi-flash/raw/master/LICENSE"
+    }
+  ]
+}
