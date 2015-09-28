@@ -1,7 +1,7 @@
 {
   "name": "hapi-flash",
-  "description": "Request auth session decorated flash messages - for post,put,delete redirect to get messages in Hapi.js, and hapi-auth-cookies",
-  "version": "1.0.4",
+  "description": "Reply interface decorated flash messages - for post,put,delete redirect to get messages in Hapi.js, and any hapi authentication scheme that populates request.auth.credentials.",
+  "version": "1.0.5",
   "author": "Anthony Bouch <tony@58bits.com> (http://www.58bits.com)",
   "repository":
   {
