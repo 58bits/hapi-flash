@@ -18,7 +18,6 @@
     "node": ">=0.10.32"
   },
   "dependencies": {
-    "boom": "2.x.x",
     "hoek": "2.x.x"
   },
   "licenses": [
