@@ -1,6 +1,6 @@
 # hapi-flash
 
-Reply interface decorated flash messages - for the [post,put,path,delete] redirect to [get] pattern.
+Reply interface decorated flash messages - for the [post,put,patch,delete] redirect to [get] pattern.
 Currently supports any session-based hapi authentication scheme that populates request.auth.credentials (such as 
 [hapi-auth-cookie](https://github.com/hapijs/hapi-auth-cookie)).
 
