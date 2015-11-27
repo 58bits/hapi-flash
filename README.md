@@ -9,6 +9,8 @@ Currently supports any session-based hapi authentication scheme that populates r
 ### Set Flash Message
 Anywhere that you would would ordinarily issue a `reply.redirect(url)`, use `reply.flash(message, url)`.
 
+The `message` parameter can be a single message object, or an array of message objects.
+
 `reply.flash(message)` can also be called multiple times adding multiple flash messages if the redirect url argument is omitted, followed by either `reply.flash(message, url)`, or the standard `reply.redirect(url)`.  
  
 ### Retrieve Flash Messages
